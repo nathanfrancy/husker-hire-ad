@@ -112,11 +112,11 @@ function App() {
       </div>
       <div className="inputGroup">
         <label>Bg Color: </label>
-        <input type="text" onChange={onChangeBgColor} value={bgColor} /> (hex color) <a href="https://materialui.co/colors/" target="_blank">Nice color palette</a>
+        <input type="text" onChange={onChangeBgColor} value={bgColor} /> (hex color) <a href="https://materialui.co/colors/" target="_blank" rel="noreferrer">Nice color palette</a>
       </div>
       <div className="inputGroup">
         <label>Font Color: </label>
-        <input type="text" onChange={onChangeFontColor} value={fontColor} /> (hex color) <a href="https://materialui.co/colors/" target="_blank">Nice color palette</a>
+        <input type="text" onChange={onChangeFontColor} value={fontColor} /> (hex color) <a href="https://materialui.co/colors/" target="_blank" rel="noreferrer">Nice color palette</a>
       </div>
       <div className="inputGroup">
         <label>Text Container Width: </label>
@@ -129,7 +129,7 @@ function App() {
         <input style={{ width: '350px' }} type="text" onChange={onChangeBackgroundImageUrl} value={backgroundImageUrl} />
         <br /><br />
         Find a new image by typing in what you want to search for below and click "Find an image". Ignore the ad results at the top of the page. When you find the image you like, click to expand, then right click on the right size on the enlarged image and right click &gt; "Copy Image Address". Then come back to this page and paste into the Background Image URL field above. You can then adjust the size and position settings below.<br /><br />
-        <input type="text" onChange={onChangeBackgroundImageUrlSearch} value={backgroundImageUrlSearch} /><a href={googleSearch} type="button" target="_blank">Find an image</a>
+        <input type="text" onChange={onChangeBackgroundImageUrlSearch} value={backgroundImageUrlSearch} /><a href={googleSearch} type="button" target="_blank" rel="noreferrer">Find an image</a>
       </div>
       <div className="inputGroup">
         <label>Background Position: </label>
